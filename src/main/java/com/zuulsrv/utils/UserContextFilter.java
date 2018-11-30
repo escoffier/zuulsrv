@@ -8,6 +8,7 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
+//Saving tmx-correlation-id and other information from http header to UserContext
 @Component
 public class UserContextFilter implements Filter {
 
